@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Suez+One&display=swap');
+
+.main{
+    width: 100%;
+    height: 85vh;
+}
+
+.overlay{
+    position: absolute;
+    width: 100%;
+    height: 85vh;
+    background-color: rgb(0,0,0,0.25);
+}
+
+.content{
+    top:0;
+    position: absolute;
+    margin-top: 75px;
+    width: 100%;
+    height: 80%;
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    color: white;
+    font-family: 'Suez One', serif;
+}
+
+.content h1{
+    margin-top: 0;
+    margin-bottom: 0;
+}
+
+video{
+    width: 100%;
+    height: 85vh;
+    object-fit: cover;
+}

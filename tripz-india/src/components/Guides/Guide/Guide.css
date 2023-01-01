@@ -1,0 +1,76 @@
+@import url('https://fonts.googleapis.com/css2?family=Andika:wght@400;700&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Alegreya:wght@400;500;600;700;800&display=swap');
+.profilecard {
+  position: relative;
+  width: 300px;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 8px 8px 0 rgba(0, 0, 0, 0.15);
+  padding: 16px;
+  margin:  56px 24px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.profilecard-image {
+  width: 150px;
+  height: 150px;
+  border-radius: 50%;
+  overflow: hidden;
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 15px 35px -15px rgba(0, 0, 0, 0.5),
+  0 5px 20px 0 rgba(0, 0, 0, 0.1);
+}
+
+.profilecard-image img {
+  width: 100%;
+  transform: scale(1.2);
+}
+
+.about {
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  text-align: justify;
+}
+
+span{
+  font-family: 'Alegreya', serif;
+  font-weight: 500;
+  font-size: large;
+}
+
+strong{
+  font-family: 'Alegreya', serif;
+  font-weight: 800;
+  font-size: large;
+}
+
+.name {
+  margin-top: 80px;
+  font-size: 1.2em;
+  color: #333;
+  font-weight: 700;
+  font-family: 'Andika',sans-serif;
+  letter-spacing: 0.8px;
+  margin-bottom: 8px;
+  font-size:x-large;
+}
+
+.container{
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+.allGuides{
+background-color: #0fa498;
+background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
+}

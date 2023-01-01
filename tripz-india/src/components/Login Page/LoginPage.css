@@ -1,0 +1,36 @@
+@import url("https://fonts.googleapis.com/css?family=Fira+Sans:400,500,600,700,800");
+label{
+  font-weight: 500;
+  font-family: "Fira Sans", sans-serif;
+}
+.page{
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    background-color: rgb(6, 171, 55);
+    background-image: url("https://www.transparenttextures.com/patterns/white-tiles.png");
+    justify-content: center;
+    align-items: center;
+    display: flex;
+}
+.card{
+    position: absolute;
+    margin-top: 80px;
+    width: 350px;
+}
+.cardContent{
+    padding: 10px;
+}
+
+.cardContent h5{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    font-weight: 700;
+    font-family: "Fira Sans", sans-serif;
+}
+.cardContent div{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}

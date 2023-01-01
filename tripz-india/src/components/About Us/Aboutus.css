@@ -1,0 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.aboutpage{
+    padding: 10px;
+    font-family: 'Lato', sans-serif;
+    background-color: #ffffff;
+    background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+};
+
+.aboutheading{
+    text-align: center;
+}

@@ -1,0 +1,26 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato&display=swap');
+
+.footerbody{
+    padding: 20px;
+    background-color: #4a7672;
+    background-image: url("https://www.transparenttextures.com/patterns/foggy-birds.png");
+    font-family: 'Lato', sans-serif;
+}
+
+.centerComp{
+    display: flex;
+    /* flex-direction: column; */
+    align-items: center;
+    justify-content: center;
+    color: rgb(10, 62, 57);
+}
+
+.socialicon{
+    color:white;
+}
+
+.footerbody a{
+    margin-left: 8px;
+    margin-right: 8px;
+    margin-bottom: 10px;
+}
